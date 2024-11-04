@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes em CSS</title>
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+    @font-face {
+      font-family: 'Minha Fonte';
+        src: url('littlebird.ttf');
+    }
+
+    body {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Work Sans', Helvetica, sans-serif;
+
+      /*
+        Medidas Absolutas
+          cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+          em, ex, rem, vw, vh, %
+          16px geralmente é igual 1 em
+
+      */
+      font-size: 3em;
+
+      /* lighter, normal, bold, bolder*/
+      /*font-weight: bolder;*/
+      /*font-style: italic;*/
+      /*text-decoration: underline;*/
+
+      /* font-style -> font-weight -> font-size: -> font-family */
+      font: italic bolder 3em 'Work Sans', sans-serif;
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <h1>Trabalhando com fontes</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, velit aliquam quam rem quidem tenetur, maiores similique voluptatum provident architecto inventore, non sit sapiente illum dolore nulla culpa odio totam!</p>
+
+  <h2>Subtítulo do Execercício</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, enim qui ducimus ex, sapiente maiores iusto animi repellendus reprehenderit rerum fuga provident voluptatum illo doloremque. Officia dolore quod voluptate dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis labore harum sunt consectetur asperiores voluptate necessitatibus placeat natus tempore consequatur exercitationem provident, facere quaerat, rerum quis a cupiditate atque voluptatum!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam incidunt deleniti modi possimus neque veritatis distinctio ex alias? Excepturi, ex quos necessitatibus itaque cum laudantium quasi sapiente! In, quibusdam.</p>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+/*  height: 100%; */
+}
+
+body {
+  background-image: linear-gradient(to left, #3060BF, #8BA5D9);
+}
+
+main {
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(22, 20, 11, 0.788);
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+h1 {
+  color: #3060BF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(33, 76, 163, 0.678) ;
+}
+
+h2 {
+
+  color: #8BA5D9;
+
+}
+
+p {
+  text-align: justify;
+}
+
+/*
+
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-1-hex { color: #0339A6; }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-2-hex { color: #3060BF; }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-3-hex { color: #8BA5D9; }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-4-hex { color: #2A6BBF; }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-5-hex { color: #6A736A; }
+
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-1-rgba { color: rgba(3, 57, 165, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-2-rgba { color: rgba(47, 95, 191, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-3-rgba { color: rgba(138, 164, 216, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-4-rgba { color: rgba(42, 106, 191, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-5-rgba { color: rgba(105, 114, 106, 1); }
+
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-1-hsla { color: hsla(219, 96, 33, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-2-hsla { color: hsla(219, 60, 46, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-3-hsla { color: hsla(219, 50, 69, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-4-hsla { color: hsla(213, 63, 45, 1); }
+.Book-Design-"Quem-te-vê-não-te-conhece-mais"-5-hsla { color: hsla(123, 4, 43, 1); }
+
+/*
