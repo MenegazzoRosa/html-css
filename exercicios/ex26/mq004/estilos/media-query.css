@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoint
+
+ChatGpt                           W3C
+Small Phones	< 576px             Pequenas Telas  : até 600px
+Phones	576px - 767px             Celular         : de 600px até 768px
+Tablets	768px - 991px             Tablet          : de 768px até 992px
+Small Laptops	992px - 1199px      Desktop         : de 992px até 1200px
+Desktops/Large Screens	≥ 1200px  Grandes Telas   : acima de 1200px
+
+*/
+
+@media print {  /* Impressão */
+
+  * {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  body {
+    background-image: url("../imagens/back-print.jpg"); /* Desnecessário */
+  }
+
+  main {
+    width: 90vw;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  main h1 {
+    text-shadow: none;
+    color: black;
+  }
+
+  img#idPhone { display: none; }
+  img#idTablet { display: none; }
+  img#idPrint { display: block; }
+  img#idPc { display: none; }
+  img#idTv { display: none; }
+
+  main::after {
+    content: "Essa impressão foi feita através do site www.cursoemvideo.com";
+    text-decoration: overline;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {  /* Tablet */
+
+  body {
+    background-image: url("../imagens/back-tablet.jpg");
+  }
+
+  img#idPhone { display: none; }
+  img#idTablet { display: block; }
+  img#idPrint { display: none; }
+  img#idPc { display: none; }
+  img#idTv { display: none; }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {  /* Desktop */
+
+  body {
+    background-image: url("../imagens/back-pc.jpg");
+  }
+
+  img#idPhone { display: none; }
+  img#idTablet { display: none; }
+  img#idPrint { display: none; }
+  img#idPc { display: block; }
+  img#idTv { display: none; }
+
+}
+
+@media screen and (min-width: 1200px) {  /* Grandes Tela */
+
+  body {
+    background-image: url("../imagens/back-tv.jpg");
+  }
+
+  main {
+    width: 700px;
+  }
+
+  img#idPhone { display: none; }
+  img#idTablet { display: none; }
+  img#idPrint { display: none; }
+  img#idPc { display: none; }
+  img#idTv { display: block; }
+
+}
+
